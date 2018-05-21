@@ -130,18 +130,14 @@ body {
     color: white;
 }
 
-.name-tag h6 {
-    font-size: 1.3em;
-}
-
 .name-tag h1 {
     font-family: 'Kavivanar', cursive;
-    font-size: 3em;
+    font-size: 4em;
     margin: 2% 0 1% 0;
 }
 
 .name-tag h5 {
-    font-size: 1.5em;
+    font-size: 2.5em;
 }
 
 /* about page specific styling rules */
@@ -162,6 +158,7 @@ body {
 
 .about-div h5 {
     margin: 3%;
+    font-size: 2rem;
     text-align: end;
 }
 
@@ -242,8 +239,6 @@ body {
 .portfolio-element li {
     margin-top: 10px;
 }
-
-
 
 /* resume page specific styling rules */
 .resume-div {
@@ -343,4 +338,112 @@ body {
 
 .contact-bottom {
     height: 65%;
+}
+
+@media (min-width: 1500px) {
+    .motto {
+        font-size: 1.05rem;
+    }
+    .motto span {
+        font-size: .75rem;
+    }
+    .nav-panel {
+        font-size: 1.45rem;
+    }
+    .nav-panel a {
+        width: 8vw;
+        min-width: 140px;
+        max-width: 170px;
+    }
+    .side-bar p {
+        font-size: .8rem;
+    }
+    .name-tag h1 {
+        font-size: 5.5em;
+    }
+    .name-tag h5 {
+        font-size: 2.7em;
+    }
+    .about-div h5 {
+        font-size: 2.3rem;
+    }
+    .portfolio-div {
+        margin-left: 15%;
+    }
+    .portfolio-title {
+        font-size: 1.4em;
+    }
+    .portfolio-element div {
+        font-size: 1.9em;
+    }
+    .resume-div a {
+        font-size: 1.5em;
+    }
+    .contact-div h1 {
+        font-size: 3rem;
+        margin: 20px 25px 30px 25px;
+    }
+    .contact-div h2 {
+        font-size: 2.5rem;
+    }
+    .contact-top {
+        height: 40%;
+    }
+    .contact-bottom {
+        height: 60%;
+    }
+}
+
+@media (min-width: 1960px) {
+    .motto {
+        font-size: 1.25rem;
+    }
+    .motto span {
+        font-size: .85rem;
+    }
+    .nav-panel {
+        font-size: 1.7rem;
+    }
+    .nav-panel a {
+        width: 7.5vw;
+        min-width: 150px;
+        max-width: 180px;
+    }
+    .side-bar p {
+        font-size: .9rem;
+    }
+    .name-tag h1 {
+        font-size: 7em;
+    }
+    .name-tag h5 {
+        font-size: 3.5em;
+    }
+    .about-div h5 {
+        font-size: 3rem;
+    }
+    .portfolio-div {
+        margin-left: 15%;
+    }
+    .portfolio-title {
+        font-size: 2em;
+    }
+    .portfolio-element div {
+        font-size: 2.4em;
+    }
+    .resume-div a {
+        font-size: 2em;
+    }
+    .contact-div h1 {
+        font-size: 4rem;
+        margin: 25px 30px 35px 30px;
+    }
+    .contact-div h2 {
+        font-size: 3rem;
+    }
+    .contact-top {
+        height: 40%;
+    }
+    .contact-bottom {
+        height: 60%;
+    }
 }
