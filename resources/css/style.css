@@ -102,7 +102,7 @@ body {
 }
 
 .left-screen {
-    width: 0;
+    left: -100vw;
     transition-duration: 0s;
 }
 
