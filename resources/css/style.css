@@ -340,6 +340,154 @@ body {
     height: 65%;
 }
 
+@media (max-width: 1024px) {
+    .about-div {
+        margin-right: 20px;
+        width: 77%;
+        height: 40%;
+    }
+    .portfolio-div {
+        margin-right: 20px;
+        width: 77%;
+    }
+    .resume-div {
+        width: 70%;
+        margin-right: 55px;
+    }
+    .contact-div {
+        top: 30%;
+        width: 50%;
+        height: 45%;
+        margin-right: 155px;
+    }
+}
+
+@media (max-width: 768px) {
+    .side-bar {
+        min-width: 165px;
+    }
+    .motto {
+        font-size: 1rem;
+    }
+    .nav-panel a {
+        margin-left: 15px;
+    }
+    .nav-panel a:hover, .slided-right {
+        margin-left: 25px !important;
+    }
+    .name-tag h1, .name-tag h5 {
+        margin-left: 175px
+    }
+    .about-div {
+        margin-right: 13px;
+        width: 75%;
+        height: 40%;
+    }
+    .about-div h5 {
+        font-size: 1.5rem;
+    }
+    .portfolio-div {
+        top: 1%;
+        margin-right: 13px;
+        margin-left: 180px;
+        width: auto;
+    }
+    .portfolio-element div {
+        font-size: 1.1em;
+    }
+    .portfolio-element ul {
+        font-size: .75em;
+    }
+    .resume-div {
+        width: 70%;
+        margin-right: 33px;
+    }
+    .contact-div {
+        top: 30%;
+        width: 60%;
+        height: 40%;
+        margin-right: 70px;
+    }
+}
+
+@media (max-width: 480px) {
+    .side-bar {
+        position: fixed;
+        top: 0;
+        left:0;
+        height: auto;
+        width: 100vw;
+        z-index: 50;
+    }
+    .motto, .side-bar p {
+        display: none;
+    }
+    .nav-panel {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        font-size: 1.2rem;
+        margin: 5px auto;
+    }
+    .nav-panel a {
+        margin: 2px;
+        border-radius: 10px;
+    }
+    .about-page {
+        background-image: none;
+        background-color: rgb(138,77,29);
+    }
+    .resume-page {
+        background-image: none;
+        background-color: rgb(31,64,80);
+    }
+    .name-tag h1 {
+        font-size: 2.5em;
+    }
+    .name-tag h5 {
+        font-size: 1.25em;
+    }
+    .about-div {
+        margin-top: 45%;
+        width: 90%;
+        height: 30%;
+    }
+    .about-div h5 {
+        font-size: 1.1rem;
+    }
+    .portfolio-div {
+        margin: 30% 10px 0 10px;
+        width: auto;
+    }
+    .portfolio-element div {
+        font-size: 0.9em;
+    }
+    .portfolio-element ul {
+        font-size: .7em;
+    }
+    .resume-div {
+        width: 70%;
+        height: 65%;
+        margin: auto;
+        margin-top: 25%;
+    }
+    .contact-div {
+        top: 30%;
+        width: 80%;
+        height: 50%;
+        margin: auto;
+    }
+    .contact-div h1 {
+        font-size: 1.5rem;
+        margin: 10px 10px 15px 10px;
+    }
+    .contact-div h2 {
+        font-size: 1.3rem;
+    }
+}
+
 @media (min-width: 1500px) {
     .motto {
         font-size: 1.05rem;
