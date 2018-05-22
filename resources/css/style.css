@@ -454,8 +454,11 @@ body {
     .name-tag h5 {
         font-size: 1.25em;
     }
+    .name-tag h1, .name-tag h5 {
+        margin: 0 auto 15px auto;
+    }
     .about-div {
-        margin-top: 45%;
+        margin: 45% auto 1% auto;
         width: 90%;
         height: 30%;
     }
