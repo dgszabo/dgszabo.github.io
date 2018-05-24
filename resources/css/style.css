@@ -71,7 +71,7 @@ body {
 /* page backgrounds and common styling rules, elements for the swiping logic */
 .home-page, .about-page, .portfolio-page, .resume-page, .contact-page {
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     position: absolute;
     top: 0;
     left: 0;
@@ -82,23 +82,26 @@ body {
 
 .home-page {
     background-image: url(https://images.unsplash.com/photo-1503934397939-f303392d5f30?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8c354af38363ce80e6aae51182b23514&auto=format&fit=crop&w=2586&q=80);
+    height: 100vh;
 }
 
 .about-page {
     background-image: url(https://images.unsplash.com/photo-1495571344521-cec5d366af78?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=efe80f37f8e3929b7d1bff65e250c521&auto=format&fit=crop&w=2689&q=80);
+    height: 100vh;
 }
 
 .portfolio-page {
-    height: 120%;
     background-color: rgb(155, 155, 119);
 }
 
 .resume-page {
     background-image: url(https://images.unsplash.com/photo-1435224654926-ecc9f7fa028c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=530fa1b183b1514b70448e62ad142c8e&auto=format&fit=crop&w=2468&q=80);
+    height: 100vh;
 }
 
 .contact-page {
     background-image: url(https://images.unsplash.com/uploads/1413222992504f1b734a6/1928e537?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ae29adbe918cb18e89f9c06a97c0c878&auto=format&fit=crop&w=2550&q=80);
+    height: 100vh;
 }
 
 .left-screen {
@@ -175,6 +178,7 @@ body {
     top: 3%;
     width: 70%;
     margin: auto;
+    margin-top: 3%;
     margin-left: 220px;
     display: flex;
     flex-direction: column;
@@ -192,7 +196,8 @@ body {
     position: relative;
     background-color: rgba(255, 255, 255, .3);
     border-radius: 20px;
-    margin-top: 15px;
+    margin-top: 4vh;
+    margin-bottom: 1vh;
 }
 
 .portfolio-title {
