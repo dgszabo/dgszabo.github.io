@@ -243,7 +243,7 @@ body {
 }
 
 .portfolio-element a div img {
-    position: relative;
+    position: absolute;
     height: 40%;
     width: auto;
     top: 30%;
