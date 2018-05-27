@@ -7,6 +7,9 @@ $(document).ready(() => {
         let pages = [ 'home', 'about', 'portfolio', 'resume', 'contact' ]
         if(!inTransition && $(`.${event.target.id.split('-')[0]}-page`).hasClass('left-screen')) {
             inTransition = true;
+            
+            $('html, body').animate({ scrollTop: 0 }, 'fast');
+            
             pages.forEach((page) => {
                 if(page !== `${event.target.id.split('-')[0]}`) {
                     $(`.${page}-page`).removeClass('front').addClass('back');
