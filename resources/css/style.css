@@ -244,9 +244,9 @@ body {
 
 .portfolio-element a div img {
     position: absolute;
-    height: 40%;
-    width: auto;
-    top: 30%;
+    height: auto;
+    width: 74%;
+    top: 33%;
     left: 13%;
     opacity: 0;
     transition-duration: .2s;
