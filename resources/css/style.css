@@ -438,7 +438,7 @@ body {
         margin-left: 180px;
         width: auto;
     }
-    .portfolio-element div {
+    .portfolio-element h1, .portfolio-element div {
         font-size: 1.1em;
     }
     .portfolio-element ul {
@@ -515,7 +515,7 @@ body {
         margin: 30% 10px 0 10px;
         width: auto;
     }
-    .portfolio-element div {
+    .portfolio-element h1, .portfolio-element div {
         font-size: 0.9em;
     }
     .portfolio-element ul {
@@ -575,7 +575,7 @@ body {
     .portfolio-title {
         font-size: 1.4em;
     }
-    .portfolio-element div {
+    .portfolio-element h1, .portfolio-element div {
         font-size: 1.9em;
     }
     .resume-div a {
@@ -629,7 +629,7 @@ body {
     .portfolio-title {
         font-size: 2em;
     }
-    .portfolio-element div {
+    .portfolio-element h1, .portfolio-element div {
         font-size: 2.4em;
     }
     .resume-div a {
