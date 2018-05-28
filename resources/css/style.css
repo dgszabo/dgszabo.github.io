@@ -224,6 +224,10 @@ body {
     position: relative;
 }
 
+.portfolio-element h1 {
+    font-size: 140%;
+}
+
 .portfolio-element a img {
     width: 100%;
     border-top-left-radius: 10px;
@@ -267,7 +271,7 @@ body {
     font-size: 1.4em;
 }
 
-.portfolio-element div h2 a {
+.portfolio-element h1 a, .portfolio-element div h2 a {
     text-decoration: underline;
     color: rgb(38,41,46)
 }
