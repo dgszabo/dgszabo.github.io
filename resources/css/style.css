@@ -91,7 +91,9 @@ body {
 }
 
 .portfolio-page {
-    background-color: rgb(155, 155, 119);
+    /* background-color: rgb(155, 155, 119); */
+    background-image: url(https://images.unsplash.com/photo-1459111701074-c0ee7842cccb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=56b5c9b2135458aa58fdfce5c3c7c86f&auto=format&fit=crop&w=2550&q=80);
+    
 }
 
 .resume-page {
